@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="ep15-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="ep15-title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#ep15-bg)"/>
+  <polygon points="1000,0 1080,0 780,840 700,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="140,0 210,0 1030,840 960,840" fill="#f97316" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#7C3AED"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.15</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#ep15-title)">从选型到上线</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">低代码产品实战 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#ep15-title)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">需求评审：五个产品，怎么选？</text>
+    <g data-role="label" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="240" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">客户运营后台要上线，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">五个产品到底选哪个？</text>
+    <rect x="340" y="60" width="208" height="120" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.4"/>
+    <rect x="340" y="60" width="208" height="22" rx="8" fill="#1e2a44"/>
+    <text x="354" y="76" font-size="12.5" font-weight="bold" fill="#f97316">需求评审</text>
+    <rect x="352" y="90" width="184" height="22" rx="4" fill="#1e2a44"/>
+    <text x="360" y="106" font-size="11.5" fill="#e2e8f0">客户运营后台</text>
+    <rect x="352" y="118" width="184" height="22" rx="4" fill="#1e2a44"/>
+    <text x="360" y="134" font-size="11.5" fill="#e2e8f0">复杂表单 + CRUD 列表</text>
+    <rect x="352" y="146" width="184" height="22" rx="4" fill="#1e2a44"/>
+    <text x="360" y="162" font-size="11.5" fill="#94a3b8">一个月内上线</text>
+    <rect x="24" y="200" width="100" height="100" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <rect x="24" y="200" width="100" height="20" rx="8" fill="#1e2a44"/>
+    <text x="74" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#22d3ee">amis</text>
+    <text x="74" y="252" text-anchor="middle" font-size="22" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="74" y="282" text-anchor="middle" font-size="10.5" fill="#94a3b8">百度</text>
+    <rect x="130" y="200" width="100" height="100" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.5"/>
+    <rect x="130" y="200" width="100" height="20" rx="8" fill="#1e2a44"/>
+    <text x="180" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#f472b6">Formily</text>
+    <text x="180" y="252" text-anchor="middle" font-size="22" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="180" y="282" text-anchor="middle" font-size="10.5" fill="#94a3b8">阿里</text>
+    <rect x="236" y="200" width="100" height="100" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <rect x="236" y="200" width="100" height="20" rx="8" fill="#1e2a44"/>
+    <text x="286" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#a78bfa">lowcode</text>
+    <text x="286" y="252" text-anchor="middle" font-size="22" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="286" y="282" text-anchor="middle" font-size="10.5" fill="#94a3b8">阿里</text>
+    <rect x="342" y="200" width="100" height="100" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.5"/>
+    <rect x="342" y="200" width="100" height="20" rx="8" fill="#1e2a44"/>
+    <text x="392" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#f97316">tmagic</text>
+    <text x="392" y="252" text-anchor="middle" font-size="22" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="392" y="282" text-anchor="middle" font-size="10.5" fill="#94a3b8">腾讯</text>
+    <rect x="448" y="200" width="100" height="100" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.5"/>
+    <rect x="448" y="200" width="100" height="20" rx="8" fill="#1e2a44"/>
+    <text x="498" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#34d399">GrapesJS</text>
+    <text x="498" y="252" text-anchor="middle" font-size="22" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="498" y="282" text-anchor="middle" font-size="10.5" fill="#94a3b8">开源</text>
+    <rect x="24" y="312" width="524" height="38" rx="8" fill="#111a30" stroke="#f97316" stroke-opacity="0.5"/>
+    <rect x="24" y="312" width="4" height="38" rx="2" fill="#f97316"/>
+    <text x="40" y="336" font-size="13.5" fill="#f97316">选型不是选一个，得按场景组合。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">架构拆解：amis + Formily 组合拳</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="250" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">amis 做列表概览，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">Formily 做复杂表单。</text>
+    <rect x="24" y="150" width="210" height="110" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="210" height="22" rx="8" fill="#1e2a44"/>
+    <text x="129" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#22d3ee">amis</text>
+    <text x="40" y="195" font-size="14" font-weight="bold" fill="#e2e8f0">列表页 + 概览页</text>
+    <text x="40" y="218" font-size="12" fill="#94a3b8">CRUD 一把梭</text>
+    <polygon points="234,196 244,202 234,208" fill="#22d3ee"/>
+    <rect x="244" y="180" width="88" height="44" rx="8" fill="#1e2a44" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="288" y="198" text-anchor="middle" font-size="12" font-weight="bold" fill="#a78bfa">React</text>
+    <text x="288" y="214" text-anchor="middle" font-size="12" font-weight="bold" fill="#a78bfa">Router</text>
+    <polygon points="332,196 322,202 332,208" fill="#f472b6"/>
+    <rect x="338" y="150" width="210" height="110" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.4"/>
+    <rect x="338" y="150" width="210" height="22" rx="8" fill="#1e2a44"/>
+    <text x="443" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#f472b6">Formily</text>
+    <text x="354" y="195" font-size="14" font-weight="bold" fill="#e2e8f0">复杂表单联动</text>
+    <text x="354" y="218" font-size="12" fill="#94a3b8">校验 + 联动</text>
+    <rect x="24" y="272" width="524" height="40" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="24" y="272" width="4" height="40" rx="2" fill="#34d399"/>
+    <text x="40" y="296" font-size="13" font-weight="bold" fill="#34d399">localStorage · 数据持久化层</text>
+    <rect x="24" y="322" width="524" height="28" rx="8" fill="#111a30" stroke="#223055"/>
+    <text x="40" y="340" font-size="12" fill="#94a3b8">中间用 React Router 串联，数据统一存 localStorage。</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#34d399" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#34d399"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">编码实证：CRUD 表格 + 联动表单共存</text>
+    <rect x="24" y="52" width="524" height="288" rx="10" fill="#0a0f1c" stroke="#223055"/>
+    <rect x="24" y="52" width="524" height="28" rx="10" fill="#1e2a44"/>
+    <circle cx="40" cy="66" r="4" fill="#f97316"/>
+    <circle cx="56" cy="66" r="4" fill="#fbbf24"/>
+    <circle cx="72" cy="66" r="4" fill="#34d399"/>
+    <text x="286" y="70" text-anchor="middle" font-size="12" fill="#94a3b8">客户运营后台 · 集成界面</text>
+    <rect x="34" y="90" width="245" height="240" rx="6" fill="#0e1730" stroke="#22d3ee" stroke-opacity="0.3"/>
+    <rect x="34" y="90" width="245" height="24" rx="6" fill="#1e2a44"/>
+    <text x="156" y="106" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#22d3ee">amis · CRUD 表格</text>
+    <text x="44" y="124" font-size="10.5" fill="#94a3b8">ID</text>
+    <text x="90" y="124" font-size="10.5" fill="#94a3b8">客户名</text>
+    <text x="180" y="124" font-size="10.5" fill="#94a3b8">状态</text>
+    <rect x="34" y="132" width="245" height="22" fill="#111a30"/>
+    <text x="44" y="147" font-size="11" fill="#e2e8f0">001</text>
+    <text x="90" y="147" font-size="11" fill="#e2e8f0">张三</text>
+    <text x="180" y="147" font-size="11" fill="#34d399">活跃</text>
+    <rect x="34" y="156" width="245" height="22" fill="#0e1730"/>
+    <text x="44" y="171" font-size="11" fill="#e2e8f0">002</text>
+    <text x="90" y="171" font-size="11" fill="#e2e8f0">李四</text>
+    <text x="180" y="171" font-size="11" fill="#fbbf24">待审核</text>
+    <rect x="34" y="180" width="245" height="22" fill="#111a30"/>
+    <text x="44" y="195" font-size="11" fill="#e2e8f0">003</text>
+    <text x="90" y="195" font-size="11" fill="#e2e8f0">王五</text>
+    <text x="180" y="195" font-size="11" fill="#34d399">活跃</text>
+    <text x="44" y="222" font-size="10" fill="#64748b">共 3 条</text>
+    <rect x="176" y="210" width="94" height="22" rx="4" fill="#22d3ee" opacity="0.2"/>
+    <text x="223" y="225" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#22d3ee">新增 + 刷新</text>
+    <rect x="289" y="90" width="249" height="240" rx="6" fill="#0e1730" stroke="#f472b6" stroke-opacity="0.3"/>
+    <rect x="289" y="90" width="249" height="24" rx="6" fill="#1e2a44"/>
+    <text x="413" y="106" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#f472b6">Formily · 联动表单</text>
+    <text x="301" y="130" font-size="11" fill="#94a3b8">客户类型</text>
+    <rect x="301" y="136" width="225" height="22" rx="4" fill="#0a0f1c" stroke="#223055"/>
+    <text x="309" y="151" font-size="11" fill="#e2e8f0">企业客户</text>
+    <text x="301" y="174" font-size="11" fill="#94a3b8">折扣率</text>
+    <rect x="301" y="180" width="225" height="22" rx="4" fill="#0a0f1c" stroke="#f472b6"/>
+    <text x="309" y="195" font-size="11" fill="#f472b6">15%（联动）</text>
+    <path d="M 470 158 L 470 176" stroke="#f472b6" stroke-width="1.5" fill="none"/>
+    <polygon points="466,174 470,180 474,174" fill="#f472b6"/>
+    <text x="478" y="170" font-size="10" font-weight="bold" fill="#f472b6">联动</text>
+    <text x="301" y="220" font-size="11" fill="#94a3b8">备注</text>
+    <rect x="301" y="226" width="225" height="40" rx="4" fill="#0a0f1c" stroke="#223055"/>
+    <text x="309" y="250" font-size="11" fill="#64748b">企业客户享专属折扣</text>
+    <rect x="301" y="276" width="225" height="24" rx="4" fill="#f472b6" opacity="0.85"/>
+    <text x="413" y="293" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">提交</text>
+    <rect x="218" y="308" width="136" height="26" rx="13" fill="#1e2a44" stroke="#34d399" stroke-opacity="0.6"/>
+    <text x="286" y="325" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#34d399">无 iframe · 同一 DOM</text>
+    <text x="286" y="354" text-anchor="middle" font-size="11.5" fill="#94a3b8">同一界面共存，无 iframe 隔离</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#fbbf24" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#fbbf24"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">上线复盘：组合拳比单打独斗强</text>
+    <g data-role="uncle" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="250" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">上线一个月，复盘一下。</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">效果比预想的好！</text>
+    <rect x="24" y="150" width="524" height="36" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="4" height="36" rx="2" fill="#22d3ee"/>
+    <text x="40" y="173" font-size="13" fill="#e2e8f0">amis 管列表/概览，Formily 管复杂表单</text>
+    <rect x="24" y="194" width="524" height="36" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <rect x="24" y="194" width="4" height="36" rx="2" fill="#a78bfa"/>
+    <text x="40" y="217" font-size="13" fill="#e2e8f0">React Router 串联页面，localStorage 存数据</text>
+    <rect x="24" y="238" width="524" height="36" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="24" y="238" width="4" height="36" rx="2" fill="#34d399"/>
+    <text x="40" y="261" font-size="13" fill="#e2e8f0">无 iframe，同一 DOM 共存，互不干扰</text>
+    <rect x="24" y="282" width="524" height="36" rx="8" fill="#111a30" stroke="#f97316" stroke-opacity="0.6"/>
+    <rect x="24" y="282" width="4" height="36" rx="2" fill="#f97316"/>
+    <text x="40" y="305" font-size="14" font-weight="bold" fill="#f97316">组合拳比单打独斗强</text>
+    <rect x="24" y="326" width="524" height="28" rx="8" fill="#111a30" stroke="#fbbf24" stroke-opacity="0.6"/>
+    <rect x="24" y="326" width="4" height="28" rx="2" fill="#fbbf24"/>
+    <text x="40" y="345" font-size="13" font-weight="bold" fill="#fbbf24">选型不是选一个，而是按场景组合</text>
+  </g>
+</svg>

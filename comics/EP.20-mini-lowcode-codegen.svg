@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="ep20-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="ep20-title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#ep20-bg)"/>
+  <polygon points="1000,0 1080,0 780,840 700,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="140,0 210,0 1030,840 960,840" fill="#f97316" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#7C3AED"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.20</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#ep20-title)">从 Schema 到可运行系统</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">低代码产品实战 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#ep20-title)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">一份 Schema JSON</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="220" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">这是设计器产出的</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">一份 Schema JSON。</text>
+    <rect x="24" y="150" width="524" height="198" rx="10" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="524" height="24" rx="10" fill="#1e2a44"/>
+    <text x="286" y="166" text-anchor="middle" font-size="12" font-weight="bold" fill="#22d3ee">page.schema.json</text>
+    <text x="40" y="196" font-size="12" fill="#e2e8f0">{</text>
+    <text x="56" y="216" font-size="12" fill="#a78bfa">"type"</text>
+    <text x="110" y="216" font-size="12" fill="#f97316">: "page"</text>
+    <text x="56" y="236" font-size="12" fill="#a78bfa">"props"</text>
+    <text x="130" y="236" font-size="12" fill="#f97316">: { "title": "首页" }</text>
+    <text x="56" y="256" font-size="12" fill="#a78bfa">"children"</text>
+    <text x="150" y="256" font-size="12" fill="#f97316">: [</text>
+    <text x="72" y="276" font-size="12" fill="#34d399">{ "type": "text",</text>
+    <text x="92" y="294" font-size="12" fill="#34d399">"props": { "text": "你好" } }</text>
+    <text x="56" y="314" font-size="12" fill="#f97316">]</text>
+    <text x="40" y="334" font-size="12" fill="#e2e8f0">}</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">转成 .vue + .json</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="230" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">Codegen 把 Schema</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">转成两个产物。</text>
+    <rect x="24" y="150" width="248" height="198" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="248" height="22" rx="8" fill="#1e2a44"/>
+    <text x="148" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">page.vue</text>
+    <text x="40" y="194" font-size="11" fill="#f472b6">&lt;template&gt;</text>
+    <text x="56" y="212" font-size="11" fill="#e2e8f0">&lt;div class="page"&gt;</text>
+    <text x="72" y="230" font-size="11" fill="#e2e8f0">&lt;text-comp</text>
+    <text x="92" y="248" font-size="11" fill="#a78bfa">text="你好" /&gt;</text>
+    <text x="56" y="266" font-size="11" fill="#e2e8f0">&lt;/div&gt;</text>
+    <text x="40" y="284" font-size="11" fill="#f472b6">&lt;/template&gt;</text>
+    <text x="40" y="308" font-size="11" fill="#94a3b8">可运行的 Vue 组件</text>
+    <text x="40" y="328" font-size="11" fill="#94a3b8">丢到任意 Vue 项目</text>
+    <rect x="288" y="150" width="260" height="198" rx="8" fill="#0a0f1c" stroke="#fbbf24" stroke-opacity="0.4"/>
+    <rect x="288" y="150" width="260" height="22" rx="8" fill="#1e2a44"/>
+    <text x="418" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#fbbf24">page.schema.json</text>
+    <text x="304" y="194" font-size="11" fill="#e2e8f0">{</text>
+    <text x="320" y="212" font-size="11" fill="#a78bfa">"type"</text>
+    <text x="370" y="212" font-size="11" fill="#f97316">: "page",</text>
+    <text x="320" y="230" font-size="11" fill="#a78bfa">"children"</text>
+    <text x="410" y="230" font-size="11" fill="#f97316">: [ ... ]</text>
+    <text x="304" y="248" font-size="11" fill="#e2e8f0">}</text>
+    <text x="418" y="290" text-anchor="middle" font-size="11" fill="#94a3b8">Schema 原文</text>
+    <text x="418" y="310" text-anchor="middle" font-size="11" fill="#94a3b8">供其他工具消费</text>
+    <text x="418" y="330" text-anchor="middle" font-size="11" fill="#94a3b8">（如服务端渲染）</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">丢到任意 Vue 项目就能跑</text>
+    <g data-role="label" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="250" height="64" rx="10" fill="#f8fafc"/>
+    <text x="102" y="100" font-size="15" fill="#0b1220">把产物丢进去，</text>
+    <text x="102" y="122" font-size="15" fill="#0b1220">居然直接就能跑！</text>
+    <rect x="24" y="150" width="248" height="198" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="248" height="22" rx="8" fill="#1e2a44"/>
+    <text x="148" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#a78bfa">我的 Vue 项目</text>
+    <rect x="44" y="184" width="208" height="24" rx="4" fill="#1e2a44"/>
+    <text x="148" y="201" text-anchor="middle" font-size="11" fill="#94a3b8">src/views/Home.vue</text>
+    <rect x="44" y="214" width="208" height="24" rx="4" fill="#1e2a44"/>
+    <text x="148" y="231" text-anchor="middle" font-size="11" fill="#94a3b8">src/components/...</text>
+    <rect x="44" y="244" width="208" height="24" rx="4" fill="#1e2a44"/>
+    <text x="148" y="261" text-anchor="middle" font-size="11" fill="#94a3b8">src/router/index.ts</text>
+    <rect x="44" y="274" width="208" height="24" rx="4" fill="#1e2a44"/>
+    <text x="148" y="291" text-anchor="middle" font-size="11" fill="#94a3b8">package.json</text>
+    <rect x="44" y="304" width="208" height="24" rx="4" fill="#1e2a44"/>
+    <text x="148" y="321" text-anchor="middle" font-size="11" fill="#94a3b8">vite.config.ts</text>
+    <polygon points="288,246 298,240 298,252" fill="#f97316"/>
+    <rect x="302" y="150" width="246" height="198" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="302" y="150" width="246" height="22" rx="8" fill="#1e2a44"/>
+    <text x="425" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">丢入产物</text>
+    <rect x="322" y="188" width="206" height="36" rx="6" fill="#0e1730" stroke="#34d399" stroke-opacity="0.5"/>
+    <text x="425" y="211" text-anchor="middle" font-size="12" fill="#e2e8f0">page.vue</text>
+    <rect x="322" y="232" width="206" height="36" rx="6" fill="#0e1730" stroke="#fbbf24" stroke-opacity="0.5"/>
+    <text x="425" y="255" text-anchor="middle" font-size="12" fill="#e2e8f0">page.schema.json</text>
+    <text x="425" y="290" text-anchor="middle" font-size="12" fill="#34d399">pnpm dev</text>
+    <text x="425" y="314" text-anchor="middle" font-size="12" fill="#f8fafc">✓ 直接跑起来了</text>
+    <text x="425" y="336" text-anchor="middle" font-size="11" fill="#94a3b8">无需修改业务代码</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#fbbf24" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#fbbf24"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">进阶卷完成，全链路打通</text>
+    <g data-role="uncle" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="460" height="76" rx="10" fill="#f8fafc"/>
+    <text x="102" y="100" font-size="15" fill="#0b1220">进阶卷完成！你已理解</text>
+    <text x="102" y="122" font-size="15" fill="#0b1220">低代码引擎全链路：</text>
+    <text x="102" y="144" font-size="15" font-weight="bold" fill="#7C3AED">Schema → Renderer → Designer → History → Codegen</text>
+    <rect x="24" y="166" width="524" height="170" rx="8" fill="#0a0f1c" stroke="#fbbf24" stroke-opacity="0.4"/>
+    <rect x="24" y="166" width="524" height="22" rx="8" fill="#1e2a44"/>
+    <text x="286" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#fbbf24">全链路回顾</text>
+    <rect x="36" y="200" width="76" height="40" rx="6" fill="#1e2a44" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <text x="74" y="224" text-anchor="middle" font-size="11" font-weight="bold" fill="#22d3ee">Schema</text>
+    <polygon points="112,220 120,220 116,226" fill="#94a3b8"/>
+    <rect x="124" y="200" width="76" height="40" rx="6" fill="#1e2a44" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="162" y="224" text-anchor="middle" font-size="11" font-weight="bold" fill="#a78bfa">Renderer</text>
+    <polygon points="200,220 208,220 204,226" fill="#94a3b8"/>
+    <rect x="212" y="200" width="76" height="40" rx="6" fill="#1e2a44" stroke="#f472b6" stroke-opacity="0.5"/>
+    <text x="250" y="224" text-anchor="middle" font-size="11" font-weight="bold" fill="#f472b6">Designer</text>
+    <polygon points="288,220 296,220 292,226" fill="#94a3b8"/>
+    <rect x="300" y="200" width="76" height="40" rx="6" fill="#1e2a44" stroke="#fbbf24" stroke-opacity="0.5"/>
+    <text x="338" y="224" text-anchor="middle" font-size="11" font-weight="bold" fill="#fbbf24">History</text>
+    <polygon points="376,220 384,220 380,226" fill="#94a3b8"/>
+    <rect x="388" y="200" width="76" height="40" rx="6" fill="#1e2a44" stroke="#34d399" stroke-opacity="0.5"/>
+    <text x="426" y="224" text-anchor="middle" font-size="11" font-weight="bold" fill="#34d399">Plugin</text>
+    <polygon points="464,220 472,220 468,226" fill="#94a3b8"/>
+    <rect x="476" y="200" width="60" height="40" rx="6" fill="#1e2a44" stroke="#f97316" stroke-opacity="0.5"/>
+    <text x="506" y="224" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#f97316">Codegen</text>
+    <text x="286" y="268" text-anchor="middle" font-size="12.5" fill="#e2e8f0">从数据到视图，从设计到出码，</text>
+    <text x="286" y="290" text-anchor="middle" font-size="12.5" fill="#e2e8f0">每一层你都亲手实现过。</text>
+    <text x="286" y="316" text-anchor="middle" font-size="13" font-weight="bold" fill="#fbbf24">再用 amis / lowcode-engine，你已看穿黑盒。</text>
+  </g>
+</svg>

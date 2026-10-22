@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <rect width="1200" height="520" fill="#0e1730"/>
+  <text x="40" y="52" font-size="24" font-weight="bold" fill="#e2e8f0">低代码的五类形态与代表产品</text>
+  <text x="1160" y="52" text-anchor="end" font-size="13" fill="#64748b">第 00 章 · 选型地图</text>
+  <line x1="40" y1="72" x2="1160" y2="72" stroke="#223055" stroke-width="2"/>
+
+  <g>
+    <rect x="40" y="100" width="208" height="210" rx="12" fill="#101a33" stroke="#22d3ee" stroke-opacity="0.6"/>
+    <text x="60" y="136" font-size="17" font-weight="bold" fill="#22d3ee">1 · Schema 驱动</text>
+    <text x="60" y="172" font-size="15" fill="#e2e8f0">代表：amis</text>
+    <text x="60" y="202" font-size="13" fill="#94a3b8">用 JSON 描述页面</text>
+    <text x="60" y="226" font-size="13" fill="#94a3b8">中后台 CRUD 最快</text>
+    <text x="60" y="250" font-size="13" fill="#94a3b8">复杂交互要写扩展</text>
+    <text x="60" y="286" font-size="12" fill="#64748b">关键词：配置优先</text>
+  </g>
+
+  <g>
+    <rect x="268" y="100" width="208" height="210" rx="12" fill="#101a33" stroke="#7C3AED" stroke-opacity="0.7"/>
+    <text x="288" y="136" font-size="17" font-weight="bold" fill="#a78bfa">2 · 表单领域模型</text>
+    <text x="288" y="172" font-size="15" fill="#e2e8f0">代表：Formily</text>
+    <text x="288" y="202" font-size="13" fill="#94a3b8">字段模型与响应式</text>
+    <text x="288" y="226" font-size="13" fill="#94a3b8">联动/校验能力强</text>
+    <text x="288" y="250" font-size="13" fill="#94a3b8">页面层需自己搭</text>
+    <text x="288" y="286" font-size="12" fill="#64748b">关键词：表单内核</text>
+  </g>
+
+  <g>
+    <rect x="496" y="100" width="208" height="210" rx="12" fill="#101a33" stroke="#f472b6" stroke-opacity="0.7"/>
+    <text x="516" y="136" font-size="17" font-weight="bold" fill="#f472b6">3 · 可视化编排引擎</text>
+    <text x="516" y="172" font-size="15" fill="#e2e8f0">代表：lowcode-engine</text>
+    <text x="516" y="202" font-size="13" fill="#94a3b8">设计器 + 渲染器 + 物料</text>
+    <text x="516" y="226" font-size="13" fill="#94a3b8">插件体系可扩展</text>
+    <text x="516" y="250" font-size="13" fill="#94a3b8">概念多、接入成本高</text>
+    <text x="516" y="286" font-size="12" fill="#64748b">关键词：平台底座</text>
+  </g>
+
+  <g>
+    <rect x="724" y="100" width="208" height="210" rx="12" fill="#101a33" stroke="#f97316" stroke-opacity="0.7"/>
+    <text x="744" y="136" font-size="17" font-weight="bold" fill="#f97316">4 · 页面搭建器</text>
+    <text x="744" y="172" font-size="15" fill="#e2e8f0">代表：tmagic-editor</text>
+    <text x="744" y="202" font-size="13" fill="#94a3b8">编辑器与运行时分离</text>
+    <text x="744" y="226" font-size="13" fill="#94a3b8">数据源/事件/动画</text>
+    <text x="744" y="250" font-size="13" fill="#94a3b8">偏运营活动页场景</text>
+    <text x="744" y="286" font-size="12" fill="#64748b">关键词：页面生产</text>
+  </g>
+
+  <g>
+    <rect x="952" y="100" width="208" height="210" rx="12" fill="#101a33" stroke="#34d399" stroke-opacity="0.7"/>
+    <text x="972" y="136" font-size="17" font-weight="bold" fill="#34d399">5 · 自由画布</text>
+    <text x="972" y="172" font-size="15" fill="#e2e8f0">代表：GrapesJS</text>
+    <text x="972" y="202" font-size="13" fill="#94a3b8">拖拽生成 HTML/CSS</text>
+    <text x="972" y="226" font-size="13" fill="#94a3b8">像素级布局自由</text>
+    <text x="972" y="250" font-size="13" fill="#94a3b8">工程约束要自建</text>
+    <text x="972" y="286" font-size="12" fill="#64748b">关键词：视觉自由</text>
+  </g>
+
+  <g>
+    <rect x="40" y="348" width="1120" height="132" rx="12" fill="#0a0f1c" stroke="#223055"/>
+    <text x="62" y="382" font-size="16" font-weight="bold" fill="#e2e8f0">选型四问：答案决定落点</text>
+    <text x="62" y="414" font-size="14" fill="#7dd3fc">Q1 页面结构稳定、以 CRUD 为主？</text>
+    <text x="520" y="414" font-size="14" fill="#94a3b8">→ amis，配置换速度</text>
+    <text x="62" y="444" font-size="14" fill="#7dd3fc">Q2 表单联动与校验是核心难点？</text>
+    <text x="520" y="444" font-size="14" fill="#94a3b8">→ Formily，模型换确定性</text>
+    <text x="62" y="474" font-size="14" fill="#7dd3fc">Q3 要让非开发者长期搭建页面？</text>
+    <text x="520" y="474" font-size="14" fill="#94a3b8">→ lowcode-engine / tmagic-editor</text>
+    <text x="62" y="498" font-size="14" fill="#7dd3fc">Q4 要像素级自由布局与 HTML 导出？</text>
+    <text x="520" y="498" font-size="14" fill="#94a3b8">→ GrapesJS，自由换工程成本</text>
+  </g>
+</svg>

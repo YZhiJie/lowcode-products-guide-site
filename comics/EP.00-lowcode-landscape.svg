@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#bg)"/>
+  <polygon points="980,0 1060,0 760,840 680,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="150,0 220,0 1040,840 970,840" fill="#a78bfa" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#7C3AED"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.00</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#titleGrad)">五个工具箱，先选对再动手</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">低代码产品实战 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#titleGrad)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">困境：选型全靠拍脑袋</text>
+    <g data-role="label" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="330" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">老板说做个运营后台，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">同事说“上低代码就行”。</text>
+    <rect x="24" y="152" width="524" height="94" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// 需求：30 个页面 + 复杂表单</text>
+    <text x="38" y="192" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// 选型会：amis？Formily？引擎？</text>
+    <text x="38" y="210" font-size="12.5" fill="#f472b6" font-family="'SF Mono',Consolas,monospace">// 三周后：页面能点，改不动</text>
+    <text x="38" y="228" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">// 没人说得清为什么选它</text>
+    <rect x="24" y="278" width="524" height="52" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="278" width="4" height="52" rx="2" fill="#22d3ee"/>
+    <text x="40" y="300" font-size="13.5" fill="#e2e8f0">工具没有绝对好坏，</text>
+    <text x="40" y="320" font-size="13.5" fill="#94a3b8">只有场景错配的代价。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">揭秘：五类低代码形态</text>
+    <g data-role="uncle" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="340" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">先分形态，再谈产品；</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">形态不同，边界不同。</text>
+    <rect x="24" y="152" width="524" height="94" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.35"/>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// 1 Schema 驱动   2 表单模型</text>
+    <text x="38" y="192" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// 3 可视化引擎   4 页面搭建</text>
+    <text x="38" y="210" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace">// 5 自由画布   —— 五类形态</text>
+    <text x="38" y="228" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">// 没有一类能通吃所有场景</text>
+    <rect x="24" y="278" width="524" height="52" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="278" width="4" height="52" rx="2" fill="#a78bfa"/>
+    <text x="40" y="300" font-size="13.5" fill="#e2e8f0">amis 偏 Schema，Formily 偏表单，</text>
+    <text x="40" y="320" font-size="13.5" fill="#94a3b8">引擎与画布解决的是编排自由。</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f472b6" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f472b6"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">实证：四个问题定方向</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="330" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">页面谁维护？数据从哪来？</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">先回答问题，再挑工具。</text>
+    <rect x="24" y="152" width="524" height="110" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.35"/>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// Q1 页面结构稳定吗？ → Schema</text>
+    <text x="38" y="192" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// Q2 表单联动复杂吗？ → Formily</text>
+    <text x="38" y="210" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// Q3 要可视化编排吗？→ 引擎</text>
+    <text x="38" y="228" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// Q4 要像素级自由布局？→ 画布</text>
+    <text x="38" y="246" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">// 答案不同，选型自然不同</text>
+    <rect x="24" y="278" width="524" height="52" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="278" width="4" height="52" rx="2" fill="#f472b6"/>
+    <text x="40" y="300" font-size="13.5" fill="#e2e8f0">先用问题缩小范围，</text>
+    <text x="40" y="320" font-size="13.5" fill="#94a3b8">再用最小 demo 验证假设。</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">结案：先跑通，再选型</text>
+    <g data-role="uncle" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="340" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">七个 lab，一条主线；</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">每个都先跑最小闭环。</text>
+    <rect x="24" y="152" width="524" height="78" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.35"/>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">pnpm install &amp;&amp; pnpm dev</text>
+    <text x="38" y="192" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace">// labs/amis  labs/formily  ...</text>
+    <text x="38" y="210" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">// 验收：能装、能跑、能改</text>
+    <rect x="24" y="244" width="524" height="30" rx="8" fill="#f97316"/>
+    <text x="38" y="264" font-size="13.5" font-weight="bold" fill="#0b1220">⚠ 坑点：只看官网 demo，不看版本</text>
+    <rect x="24" y="288" width="524" height="48" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="288" width="4" height="48" rx="2" fill="#f97316"/>
+    <text x="40" y="310" font-size="13.5" fill="#e2e8f0">能跑通的选型，才算选型；</text>
+    <text x="40" y="328" font-size="13.5" fill="#94a3b8">跑不动的方案，只是 PPT。</text>
+  </g>
+</svg>

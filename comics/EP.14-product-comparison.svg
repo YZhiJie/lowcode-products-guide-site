@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="ep14-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="ep14-title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#ep14-bg)"/>
+  <polygon points="1000,0 1080,0 780,840 700,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="140,0 210,0 1030,840 960,840" fill="#f97316" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#7C3AED"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.14</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#ep14-title)">五强横评：没有银弹</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">低代码产品实战 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#ep14-title)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">选型焦虑：五个产品，选哪个？</text>
+    <g data-role="label" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="220" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">客户运营后台要上线，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">五个产品到底选哪个？</text>
+    <rect x="320" y="60" width="228" height="120" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.4"/>
+    <rect x="320" y="60" width="228" height="22" rx="8" fill="#1e2a44"/>
+    <text x="334" y="76" font-size="12.5" font-weight="bold" fill="#f97316">需求看板</text>
+    <rect x="332" y="90" width="204" height="22" rx="4" fill="#1e2a44"/>
+    <text x="340" y="106" font-size="11.5" fill="#e2e8f0">客户运营后台（表单+列表）</text>
+    <rect x="332" y="118" width="204" height="22" rx="4" fill="#1e2a44"/>
+    <text x="340" y="134" font-size="11.5" fill="#e2e8f0">运营可配 · 上线快</text>
+    <rect x="332" y="146" width="204" height="22" rx="4" fill="#1e2a44"/>
+    <text x="340" y="162" font-size="11.5" fill="#94a3b8">要支持 PC + 移动端 H5</text>
+    <rect x="24" y="200" width="100" height="100" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <rect x="24" y="200" width="100" height="20" rx="8" fill="#1e2a44"/>
+    <text x="74" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#22d3ee">amis</text>
+    <text x="74" y="252" text-anchor="middle" font-size="22" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="74" y="282" text-anchor="middle" font-size="10.5" fill="#94a3b8">百度</text>
+    <rect x="130" y="200" width="100" height="100" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.5"/>
+    <rect x="130" y="200" width="100" height="20" rx="8" fill="#1e2a44"/>
+    <text x="180" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#f472b6">Formily</text>
+    <text x="180" y="252" text-anchor="middle" font-size="22" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="180" y="282" text-anchor="middle" font-size="10.5" fill="#94a3b8">阿里</text>
+    <rect x="236" y="200" width="100" height="100" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <rect x="236" y="200" width="100" height="20" rx="8" fill="#1e2a44"/>
+    <text x="286" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#a78bfa">lowcode</text>
+    <text x="286" y="252" text-anchor="middle" font-size="22" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="286" y="282" text-anchor="middle" font-size="10.5" fill="#94a3b8">阿里</text>
+    <rect x="342" y="200" width="100" height="100" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.5"/>
+    <rect x="342" y="200" width="100" height="20" rx="8" fill="#1e2a44"/>
+    <text x="392" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#f97316">tmagic</text>
+    <text x="392" y="252" text-anchor="middle" font-size="22" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="392" y="282" text-anchor="middle" font-size="10.5" fill="#94a3b8">腾讯</text>
+    <rect x="448" y="200" width="100" height="100" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.5"/>
+    <rect x="448" y="200" width="100" height="20" rx="8" fill="#1e2a44"/>
+    <text x="498" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#34d399">GrapesJS</text>
+    <text x="498" y="252" text-anchor="middle" font-size="22" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="498" y="282" text-anchor="middle" font-size="10.5" fill="#94a3b8">开源</text>
+    <rect x="24" y="312" width="524" height="38" rx="8" fill="#111a30" stroke="#f97316" stroke-opacity="0.5"/>
+    <rect x="24" y="312" width="4" height="38" rx="2" fill="#f97316"/>
+    <text x="40" y="336" font-size="13.5" fill="#f97316">困境：产品多不等于选择多，选错返工成本极高。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">决策树：三问定选型方向</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="240" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">别比功能清单，先问自己</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">三个问题，范围立刻缩小。</text>
+    <rect x="24" y="150" width="524" height="56" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="4" height="56" rx="2" fill="#22d3ee"/>
+    <text x="40" y="170" font-size="12.5" font-weight="bold" fill="#22d3ee">Q1 · 表单为主 还是 页面为主？</text>
+    <text x="40" y="192" font-size="11.5" fill="#94a3b8">表单 → Formily / amis ；页面 → 进入 Q2</text>
+    <rect x="24" y="214" width="524" height="56" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <rect x="24" y="214" width="4" height="56" rx="2" fill="#a78bfa"/>
+    <text x="40" y="234" font-size="12.5" font-weight="bold" fill="#a78bfa">Q2 · 要自由画布 还是 约束 Schema？</text>
+    <text x="40" y="256" font-size="11.5" fill="#94a3b8">自由 → GrapesJS ；约束 → 进入 Q3</text>
+    <rect x="24" y="278" width="524" height="56" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.4"/>
+    <rect x="24" y="278" width="4" height="56" rx="2" fill="#f97316"/>
+    <text x="40" y="298" font-size="12.5" font-weight="bold" fill="#f97316">Q3 · 是否需要跨端（PC / H5 / 小程序）？</text>
+    <text x="40" y="320" font-size="11.5" fill="#94a3b8">跨端 → tmagic-editor ；单端 → amis / lowcode-engine</text>
+    <rect x="24" y="344" width="524" height="10" rx="8" fill="#111a30" stroke="#223055"/>
+    <text x="24" y="334" font-size="11" fill="#34d399">三问答完，选型范围从 5 个缩小到 1-2 个。</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#34d399" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#34d399"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">实证：同一需求，五强各显神通</text>
+    <text x="50" y="50" font-size="12" fill="#94a3b8">同一需求：客户运营后台（表单 + 列表 + 看板）</text>
+    <rect x="24" y="60" width="168" height="110" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="24" y="60" width="168" height="22" rx="8" fill="#1e2a44"/>
+    <text x="108" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#22d3ee">amis</text>
+    <text x="36" y="100" font-size="11.5" fill="#e2e8f0">半天搭完 CRUD，</text>
+    <text x="36" y="118" font-size="11.5" fill="#e2e8f0">上线速度最快。</text>
+    <rect x="36" y="130" width="60" height="20" rx="10" fill="#22d3ee" opacity="0.2"/>
+    <text x="66" y="144" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#22d3ee">最快</text>
+    <rect x="202" y="60" width="168" height="110" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.4"/>
+    <rect x="202" y="60" width="168" height="22" rx="8" fill="#1e2a44"/>
+    <text x="286" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#f472b6">Formily</text>
+    <text x="214" y="100" font-size="11.5" fill="#e2e8f0">复杂表单联动，</text>
+    <text x="214" y="118" font-size="11.5" fill="#e2e8f0">校验能力最强。</text>
+    <rect x="214" y="130" width="60" height="20" rx="10" fill="#f472b6" opacity="0.2"/>
+    <text x="244" y="144" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#f472b6">表单最强</text>
+    <rect x="380" y="60" width="168" height="110" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <rect x="380" y="60" width="168" height="22" rx="8" fill="#1e2a44"/>
+    <text x="464" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#a78bfa">lowcode-engine</text>
+    <text x="392" y="100" font-size="11.5" fill="#e2e8f0">物料插件可定制，</text>
+    <text x="392" y="118" font-size="11.5" fill="#e2e8f0">扩展空间最大。</text>
+    <rect x="392" y="130" width="60" height="20" rx="10" fill="#a78bfa" opacity="0.2"/>
+    <text x="422" y="144" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#a78bfa">最灵活</text>
+    <rect x="24" y="180" width="250" height="110" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.4"/>
+    <rect x="24" y="180" width="250" height="22" rx="8" fill="#1e2a44"/>
+    <text x="149" y="195" text-anchor="middle" font-size="12" font-weight="bold" fill="#f97316">tmagic-editor</text>
+    <text x="36" y="220" font-size="11.5" fill="#e2e8f0">同一套 DSL 出 PC + H5 + 小程序，</text>
+    <text x="36" y="238" font-size="11.5" fill="#e2e8f0">跨端能力最完整。</text>
+    <rect x="36" y="250" width="60" height="20" rx="10" fill="#f97316" opacity="0.2"/>
+    <text x="66" y="264" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#f97316">跨端好</text>
+    <rect x="284" y="180" width="264" height="110" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="284" y="180" width="264" height="22" rx="8" fill="#1e2a44"/>
+    <text x="416" y="195" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">GrapesJS</text>
+    <text x="296" y="220" font-size="11.5" fill="#e2e8f0">自由画布拖哪算哪，</text>
+    <text x="296" y="238" font-size="11.5" fill="#e2e8f0">落地页搭建最自由。</text>
+    <rect x="296" y="250" width="60" height="20" rx="10" fill="#34d399" opacity="0.2"/>
+    <text x="326" y="264" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#34d399">最自由</text>
+    <rect x="24" y="302" width="524" height="48" rx="8" fill="#111a30" stroke="#223055"/>
+    <text x="38" y="322" font-size="12.5" fill="#e2e8f0">结论：同一个需求五个产品都能做，但开发效率、扩展空间、</text>
+    <text x="38" y="340" font-size="12.5" fill="#e2e8f0">跨端能力天差地别——选型就是选取舍。</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#fbbf24" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#fbbf24"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">结案：没有银弹，按场景选型</text>
+    <g data-role="uncle" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="300" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">没有最好的低代码，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">只有最适合当前场景的。</text>
+    <rect x="24" y="150" width="524" height="38" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="4" height="38" rx="2" fill="#22d3ee"/>
+    <text x="40" y="174" font-size="13" font-weight="bold" fill="#22d3ee">amis → 中后台系统</text>
+    <text x="200" y="174" font-size="12" fill="#94a3b8">CRUD 密集、追求上线速度</text>
+    <rect x="24" y="196" width="524" height="38" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.4"/>
+    <rect x="24" y="196" width="4" height="38" rx="2" fill="#f472b6"/>
+    <text x="40" y="220" font-size="13" font-weight="bold" fill="#f472b6">Formily → 复杂表单场景</text>
+    <text x="222" y="220" font-size="12" fill="#94a3b8">联动多、校验重、字段多</text>
+    <rect x="24" y="242" width="524" height="38" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <rect x="24" y="242" width="4" height="38" rx="2" fill="#a78bfa"/>
+    <text x="40" y="266" font-size="13" font-weight="bold" fill="#a78bfa">lowcode-engine → 深度定制化</text>
+    <text x="258" y="266" font-size="12" fill="#94a3b8">自研物料、插件体系</text>
+    <rect x="24" y="288" width="524" height="38" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.4"/>
+    <rect x="24" y="288" width="4" height="38" rx="2" fill="#f97316"/>
+    <text x="40" y="312" font-size="13" font-weight="bold" fill="#f97316">tmagic-editor → H5 活动页</text>
+    <text x="236" y="312" font-size="12" fill="#94a3b8">多端投放、一套 DSL</text>
+    <rect x="24" y="334" width="524" height="20" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="24" y="334" width="4" height="20" rx="2" fill="#34d399"/>
+    <text x="40" y="349" font-size="11.5" font-weight="bold" fill="#34d399">GrapesJS → 营销落地页</text>
+    <text x="210" y="349" font-size="11" fill="#94a3b8">自由排版、运营自服务</text>
+  </g>
+</svg>

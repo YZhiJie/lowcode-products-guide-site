@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="ep17-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="ep17-title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#ep17-bg)"/>
+  <polygon points="1000,0 1080,0 780,840 700,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="140,0 210,0 1030,840 960,840" fill="#f97316" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#7C3AED"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.17</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#ep17-title)">递归渲染的魔法</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">低代码产品实战 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#ep17-title)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">一棵 Schema 树摆在面前</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="230" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">这棵树怎么变成</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">真实页面的？</text>
+    <rect x="24" y="150" width="524" height="198" rx="10" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="524" height="24" rx="10" fill="#1e2a44"/>
+    <text x="286" y="166" text-anchor="middle" font-size="12" font-weight="bold" fill="#22d3ee">Schema 树</text>
+    <rect x="220" y="186" width="132" height="36" rx="8" fill="#1e2a44" stroke="#22d3ee" stroke-opacity="0.6"/>
+    <text x="286" y="209" text-anchor="middle" font-size="13" font-weight="bold" fill="#22d3ee">page</text>
+    <line x1="286" y1="222" x2="150" y2="248" stroke="#64748b" stroke-width="1.5"/>
+    <line x1="286" y1="222" x2="422" y2="248" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="70" y="248" width="160" height="36" rx="8" fill="#1e2a44" stroke="#a78bfa" stroke-opacity="0.6"/>
+    <text x="150" y="271" text-anchor="middle" font-size="13" font-weight="bold" fill="#a78bfa">container</text>
+    <rect x="342" y="248" width="160" height="36" rx="8" fill="#1e2a44" stroke="#a78bfa" stroke-opacity="0.6"/>
+    <text x="422" y="271" text-anchor="middle" font-size="13" font-weight="bold" fill="#a78bfa">container</text>
+    <line x1="150" y1="284" x2="100" y2="308" stroke="#64748b" stroke-width="1.5"/>
+    <line x1="150" y1="284" x2="200" y2="308" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="40" y="308" width="120" height="30" rx="6" fill="#1e2a44" stroke="#f472b6" stroke-opacity="0.5"/>
+    <text x="100" y="328" text-anchor="middle" font-size="12" fill="#f472b6">text</text>
+    <rect x="160" y="308" width="120" height="30" rx="6" fill="#1e2a44" stroke="#f97316" stroke-opacity="0.5"/>
+    <text x="220" y="328" text-anchor="middle" font-size="12" fill="#f97316">button</text>
+    <text x="286" y="352" text-anchor="middle" font-size="11" fill="#94a3b8">递归结构：每个节点都可能有 children</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">递归：render 调 render</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="240" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">render(node) 里调</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">render(child)，像套娃</text>
+    <rect x="24" y="150" width="524" height="198" rx="10" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="524" height="24" rx="10" fill="#1e2a44"/>
+    <text x="286" y="166" text-anchor="middle" font-size="12" font-weight="bold" fill="#a78bfa">render 函数</text>
+    <text x="40" y="196" font-size="12" fill="#e2e8f0">function render(node) {</text>
+    <text x="56" y="216" font-size="12" fill="#a78bfa">const comp = resolve(node.type);</text>
+    <text x="56" y="236" font-size="12" fill="#f472b6">const children = (node.children</text>
+    <text x="68" y="254" font-size="12" fill="#94a3b8">|| []).map(render);</text>
+    <text x="56" y="276" font-size="12" fill="#f97316">return h(comp, node.props, children);</text>
+    <text x="40" y="298" font-size="12" fill="#e2e8f0">}</text>
+    <rect x="300" y="186" width="232" height="150" rx="8" fill="#0e1730" stroke="#22d3ee" stroke-opacity="0.3"/>
+    <text x="416" y="208" text-anchor="middle" font-size="11" font-weight="bold" fill="#22d3ee">套娃示意</text>
+    <rect x="330" y="218" width="172" height="108" rx="54" fill="none" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <rect x="350" y="238" width="132" height="68" rx="34" fill="none" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <rect x="370" y="258" width="92" height="28" rx="14" fill="none" stroke="#f472b6" stroke-opacity="0.6"/>
+    <text x="416" y="277" text-anchor="middle" font-size="10" fill="#e2e8f0">node</text>
+    <text x="300" y="334" font-size="10.5" fill="#94a3b8">render(page) → render(container) → render(button)</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">表达式被替换，惊讶</text>
+    <g data-role="label" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="260" height="64" rx="10" fill="#f8fafc"/>
+    <text x="102" y="100" font-size="15" fill="#0b1220">表达式 ${{ name }}</text>
+    <text x="102" y="122" font-size="15" fill="#0b1220">怎么变成「张三」了？</text>
+    <rect x="24" y="156" width="248" height="188" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.4"/>
+    <rect x="24" y="156" width="248" height="24" rx="8" fill="#1e2a44"/>
+    <text x="148" y="172" text-anchor="middle" font-size="12" font-weight="bold" fill="#f472b6">Schema 里的表达式</text>
+    <text x="40" y="206" font-size="12" fill="#e2e8f0">{</text>
+    <text x="56" y="226" font-size="12" fill="#a78bfa">"type"</text>
+    <text x="110" y="226" font-size="12" fill="#f97316">: "text"</text>
+    <text x="56" y="248" font-size="12" fill="#a78bfa">"props"</text>
+    <text x="130" y="248" font-size="12" fill="#f97316">: {</text>
+    <text x="72" y="270" font-size="12" fill="#f472b6">"text"</text>
+    <text x="140" y="270" font-size="12" fill="#34d399">: "${{ name }}"</text>
+    <text x="56" y="292" font-size="12" fill="#f97316">}</text>
+    <text x="40" y="314" font-size="12" fill="#e2e8f0">}</text>
+    <text x="148" y="336" text-anchor="middle" font-size="11" fill="#94a3b8">数据里写表达式</text>
+    <polygon points="288,250 298,244 298,256" fill="#f97316"/>
+    <rect x="302" y="156" width="246" height="188" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="302" y="156" width="246" height="24" rx="8" fill="#1e2a44"/>
+    <text x="425" y="172" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">渲染后的结果</text>
+    <rect x="322" y="200" width="206" height="130" rx="8" fill="#0e1730" stroke="#34d399" stroke-opacity="0.3"/>
+    <rect x="322" y="200" width="206" height="22" rx="8" fill="#1e2a44"/>
+    <text x="425" y="216" text-anchor="middle" font-size="11" font-weight="bold" fill="#34d399">页面</text>
+    <text x="425" y="258" text-anchor="middle" font-size="22" font-weight="bold" fill="#f8fafc">张三</text>
+    <text x="425" y="296" text-anchor="middle" font-size="11" fill="#94a3b8">上下文里 name = "张三"</text>
+    <text x="425" y="318" text-anchor="middle" font-size="11" fill="#94a3b8">表达式被求值替换</text>
+    <rect x="24" y="312" width="524" height="38" rx="8" fill="#111a30" stroke="#f97316" stroke-opacity="0.5"/>
+    <rect x="24" y="312" width="4" height="38" rx="2" fill="#f97316"/>
+    <text x="40" y="336" font-size="13.5" fill="#f97316">Renderer 遍历 props，遇到 ${{ }} 就用上下文求值。</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#34d399" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#34d399"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">递归要有终止条件</text>
+    <g data-role="uncle" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="460" height="76" rx="10" fill="#f8fafc"/>
+    <text x="102" y="100" font-size="15" fill="#0b1220">递归没有终止条件，</text>
+    <text x="102" y="122" font-size="15" fill="#0b1220">就会无限套娃，</text>
+    <text x="102" y="144" font-size="15" fill="#f97316">最终栈溢出！</text>
+    <rect x="24" y="166" width="248" height="170" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.4"/>
+    <rect x="24" y="166" width="248" height="24" rx="8" fill="#1e2a44"/>
+    <text x="148" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#f97316">终止条件</text>
+    <text x="40" y="212" font-size="12" fill="#e2e8f0">function render(node) {</text>
+    <text x="56" y="234" font-size="12" fill="#94a3b8">// 终止：叶子节点</text>
+    <text x="56" y="256" font-size="12" fill="#34d399">if (!node.children) {</text>
+    <text x="72" y="278" font-size="12" fill="#e2e8f0">return h(comp, props);</text>
+    <text x="56" y="296" font-size="12" fill="#34d399">}</text>
+    <text x="56" y="318" font-size="12" fill="#a78bfa">return h(comp, props,</text>
+    <text x="148" y="330" text-anchor="middle" font-size="11" fill="#94a3b8">children 为空时停止递归</text>
+    <rect x="288" y="166" width="260" height="170" rx="8" fill="#0a0f1c" stroke="#94a3b8" stroke-opacity="0.4"/>
+    <rect x="288" y="166" width="260" height="24" rx="8" fill="#1e2a44"/>
+    <text x="418" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#94a3b8">栈溢出示意</text>
+    <rect x="310" y="200" width="216" height="22" rx="4" fill="#1e2a44"/>
+    <text x="418" y="216" text-anchor="middle" font-size="11" fill="#e2e8f0">render(page)</text>
+    <rect x="310" y="226" width="216" height="22" rx="4" fill="#1e2a44"/>
+    <text x="418" y="242" text-anchor="middle" font-size="11" fill="#e2e8f0">render(container)</text>
+    <rect x="310" y="252" width="216" height="22" rx="4" fill="#1e2a44"/>
+    <text x="418" y="268" text-anchor="middle" font-size="11" fill="#e2e8f0">render(container)</text>
+    <rect x="310" y="278" width="216" height="22" rx="4" fill="#1e2a44"/>
+    <text x="418" y="294" text-anchor="middle" font-size="11" fill="#e2e8f0">render(container)</text>
+    <rect x="310" y="304" width="216" height="22" rx="4" fill="#f97316" opacity="0.5"/>
+    <text x="418" y="320" text-anchor="middle" font-size="11" fill="#f8fafc">Stack Overflow!</text>
+  </g>
+</svg>

@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="ep19-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="ep19-title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#ep19-bg)"/>
+  <polygon points="1000,0 1080,0 780,840 700,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="140,0 210,0 1030,840 960,840" fill="#f97316" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#7C3AED"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.19</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#ep19-title)">撤销重做的时光机</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">低代码产品实战 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#ep19-title)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">误删组件，狂按 Ctrl+Z</text>
+    <g data-role="label" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="250" height="64" rx="10" fill="#f8fafc"/>
+    <text x="102" y="100" font-size="15" fill="#0b1220">完了完了，刚删错了！</text>
+    <text x="102" y="122" font-size="15" fill="#0b1220">Ctrl+Z Ctrl+Z Ctrl+Z！</text>
+    <rect x="24" y="150" width="248" height="198" rx="10" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="248" height="24" rx="10" fill="#1e2a44"/>
+    <text x="148" y="166" text-anchor="middle" font-size="12" font-weight="bold" fill="#f97316">删除前</text>
+    <rect x="44" y="188" width="208" height="30" rx="5" fill="#223055"/>
+    <text x="148" y="208" text-anchor="middle" font-size="12" fill="#e2e8f0">标题文本</text>
+    <rect x="44" y="226" width="208" height="30" rx="5" fill="#223055"/>
+    <text x="148" y="246" text-anchor="middle" font-size="12" fill="#e2e8f0">输入框</text>
+    <rect x="44" y="264" width="208" height="30" rx="5" fill="#223055"/>
+    <text x="148" y="284" text-anchor="middle" font-size="12" fill="#e2e8f0">提交按钮</text>
+    <rect x="44" y="302" width="208" height="30" rx="5" fill="#223055"/>
+    <text x="148" y="322" text-anchor="middle" font-size="12" fill="#94a3b8">被误删的组件</text>
+    <polygon points="288,246 298,240 298,252" fill="#f97316"/>
+    <rect x="302" y="150" width="246" height="198" rx="10" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.4"/>
+    <rect x="302" y="150" width="246" height="24" rx="10" fill="#1e2a44"/>
+    <text x="425" y="166" text-anchor="middle" font-size="12" font-weight="bold" fill="#f97316">误删后</text>
+    <rect x="322" y="188" width="206" height="30" rx="5" fill="#223055"/>
+    <text x="425" y="208" text-anchor="middle" font-size="12" fill="#e2e8f0">标题文本</text>
+    <rect x="322" y="226" width="206" height="30" rx="5" fill="#223055"/>
+    <text x="425" y="246" text-anchor="middle" font-size="12" fill="#e2e8f0">输入框</text>
+    <rect x="322" y="264" width="206" height="30" rx="5" fill="#223055"/>
+    <text x="425" y="284" text-anchor="middle" font-size="12" fill="#e2e8f0">提交按钮</text>
+    <rect x="322" y="302" width="206" height="30" rx="5" fill="#0e1730" stroke="#f97316" stroke-dasharray="4 3"/>
+    <text x="425" y="322" text-anchor="middle" font-size="12" fill="#f97316">（空了）</text>
+    <text x="425" y="342" text-anchor="middle" font-size="11" fill="#94a3b8">撤销能恢复吗？</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">命令模式：时光机</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="230" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">每个操作都是 Command，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">可 execute 可 undo。</text>
+    <rect x="24" y="150" width="248" height="198" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="248" height="22" rx="8" fill="#1e2a44"/>
+    <text x="148" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#a78bfa">Command 接口</text>
+    <text x="40" y="196" font-size="12" fill="#e2e8f0">interface Command {</text>
+    <text x="56" y="218" font-size="12" fill="#f97316">execute(): void;</text>
+    <text x="56" y="240" font-size="12" fill="#34d399">undo(): void;</text>
+    <text x="40" y="262" font-size="12" fill="#e2e8f0">}</text>
+    <text x="40" y="290" font-size="11" fill="#94a3b8">新增节点 → AddCommand</text>
+    <text x="40" y="310" font-size="11" fill="#94a3b8">删除节点 → RemoveCommand</text>
+    <text x="40" y="330" font-size="11" fill="#94a3b8">改属性 → UpdateCommand</text>
+    <rect x="288" y="150" width="260" height="198" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="288" y="150" width="260" height="22" rx="8" fill="#1e2a44"/>
+    <text x="418" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#22d3ee">历史栈</text>
+    <rect x="310" y="190" width="216" height="24" rx="4" fill="#1e2a44"/>
+    <text x="418" y="207" text-anchor="middle" font-size="11" fill="#e2e8f0">cmd5（当前）</text>
+    <rect x="310" y="220" width="216" height="24" rx="4" fill="#1e2a44"/>
+    <text x="418" y="237" text-anchor="middle" font-size="11" fill="#e2e8f0">cmd4</text>
+    <rect x="310" y="250" width="216" height="24" rx="4" fill="#1e2a44"/>
+    <text x="418" y="267" text-anchor="middle" font-size="11" fill="#e2e8f0">cmd3</text>
+    <rect x="310" y="280" width="216" height="24" rx="4" fill="#1e2a44"/>
+    <text x="418" y="297" text-anchor="middle" font-size="11" fill="#e2e8f0">cmd2</text>
+    <rect x="310" y="310" width="216" height="24" rx="4" fill="#1e2a44"/>
+    <text x="418" y="327" text-anchor="middle" font-size="11" fill="#e2e8f0">cmd1</text>
+    <text x="418" y="346" text-anchor="middle" font-size="10.5" fill="#94a3b8">undo 弹出栈顶，redo 压回</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#fbbf24" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#fbbf24"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">300ms 合并窗口</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="240" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="14" fill="#0b1220">连续快速操作，</text>
+    <text x="102" y="124" font-size="14" fill="#0b1220">合并成一条 undo。</text>
+    <rect x="24" y="150" width="248" height="198" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="248" height="22" rx="8" fill="#1e2a44"/>
+    <text x="148" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#f97316">不合并（糟糕）</text>
+    <rect x="44" y="188" width="208" height="22" rx="4" fill="#1e2a44"/>
+    <text x="148" y="204" text-anchor="middle" font-size="11" fill="#e2e8f0">改文字：a</text>
+    <rect x="44" y="214" width="208" height="22" rx="4" fill="#1e2a44"/>
+    <text x="148" y="230" text-anchor="middle" font-size="11" fill="#e2e8f0">改文字：ab</text>
+    <rect x="44" y="240" width="208" height="22" rx="4" fill="#1e2a44"/>
+    <text x="148" y="256" text-anchor="middle" font-size="11" fill="#e2e8f0">改文字：abc</text>
+    <rect x="44" y="266" width="208" height="22" rx="4" fill="#1e2a44"/>
+    <text x="148" y="282" text-anchor="middle" font-size="11" fill="#e2e8f0">改文字：abcd</text>
+    <text x="148" y="312" text-anchor="middle" font-size="11.5" fill="#f97316">按 4 次 Ctrl+Z 才删掉</text>
+    <text x="148" y="332" text-anchor="middle" font-size="11" fill="#94a3b8">每次击键都记一条，太碎</text>
+    <rect x="288" y="150" width="260" height="198" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="288" y="150" width="260" height="22" rx="8" fill="#1e2a44"/>
+    <text x="418" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">合并后（舒服）</text>
+    <rect x="308" y="188" width="220" height="22" rx="4" fill="#1e2a44"/>
+    <text x="418" y="204" text-anchor="middle" font-size="11" fill="#e2e8f0">改文字：a</text>
+    <rect x="308" y="214" width="220" height="22" rx="4" fill="#1e2a44"/>
+    <text x="418" y="230" text-anchor="middle" font-size="11" fill="#e2e8f0">改文字：ab</text>
+    <rect x="308" y="240" width="220" height="22" rx="4" fill="#1e2a44"/>
+    <text x="418" y="256" text-anchor="middle" font-size="11" fill="#e2e8f0">改文字：abc</text>
+    <rect x="308" y="266" width="220" height="22" rx="4" fill="#1e2a44"/>
+    <text x="418" y="282" text-anchor="middle" font-size="11" fill="#e2e8f0">改文字：abcd</text>
+    <rect x="308" y="296" width="220" height="30" rx="5" fill="#34d399" opacity="0.2"/>
+    <text x="418" y="316" text-anchor="middle" font-size="11" font-weight="bold" fill="#34d399">合并为一条（间隔 300ms 内）</text>
+    <text x="418" y="338" text-anchor="middle" font-size="11" fill="#94a3b8">按 1 次 Ctrl+Z 就回到 a</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#34d399" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#34d399"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">插件系统：setup(api)</text>
+    <g data-role="uncle" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="460" height="76" rx="10" fill="#f8fafc"/>
+    <text x="102" y="100" font-size="15" fill="#0b1220">History 之上还有 Plugin，</text>
+    <text x="102" y="122" font-size="15" fill="#0b1220">用 setup(api) 扩展能力：</text>
+    <text x="102" y="144" font-size="15" fill="#34d399">注册组件、监听事件、加面板。</text>
+    <rect x="24" y="166" width="524" height="170" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="24" y="166" width="524" height="22" rx="8" fill="#1e2a44"/>
+    <text x="286" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">Plugin 示例</text>
+    <text x="40" y="210" font-size="12" fill="#e2e8f0">function myPlugin(api) {</text>
+    <text x="56" y="232" font-size="12" fill="#f97316">api.registerComponent('chart', Chart);</text>
+    <text x="56" y="254" font-size="12" fill="#a78bfa">api.on('history:undo', () =&gt; {</text>
+    <text x="72" y="274" font-size="12" fill="#94a3b8">console.log('撤销了');</text>
+    <text x="56" y="290" font-size="12" fill="#a78bfa">});</text>
+    <text x="56" y="312" font-size="12" fill="#34d399">api.addPanel('属性', PropertyPanel);</text>
+    <text x="40" y="330" font-size="12" fill="#e2e8f0">}</text>
+  </g>
+</svg>

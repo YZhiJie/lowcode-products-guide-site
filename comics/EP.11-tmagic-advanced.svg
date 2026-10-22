@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg11" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="titleGrad11" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#bg11)"/>
+  <polygon points="1000,0 1080,0 780,840 700,840" fill="#f472b6" opacity="0.04"/>
+  <polygon points="140,0 210,0 1030,840 960,840" fill="#34d399" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#7C3AED"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.11</text>
+  <text x="126" y="40" font-size="24" font-weight="bold" fill="url(#titleGrad11)">事件联动三种打法：comp code data-source</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">低代码产品实战 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#titleGrad11)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f472b6" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f472b6"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">三种联动打法各有边界</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="330" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">点一个按钮，触发三种完全</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">不同的联动方式。</text>
+    <rect x="36" y="154" width="120" height="40" rx="10" fill="#7C3AED"/>
+    <text x="96" y="179" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">多功能按钮</text>
+    <line x1="158" y1="174" x2="240" y2="154" stroke="#f472b6" stroke-width="2.5"/>
+    <polygon points="234,146 246,154 234,160" fill="#f472b6"/>
+    <rect x="244" y="134" width="82" height="22" rx="6" fill="#f472b6"/>
+    <text x="285" y="149" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">CODE</text>
+    <line x1="158" y1="174" x2="240" y2="174" stroke="#34d399" stroke-width="2.5"/>
+    <polygon points="234,168 246,174 234,180" fill="#34d399"/>
+    <rect x="244" y="164" width="82" height="22" rx="6" fill="#34d399"/>
+    <text x="285" y="179" text-anchor="middle" font-size="11" font-weight="bold" fill="#0b1220">COMP</text>
+    <line x1="158" y1="174" x2="240" y2="196" stroke="#fbbf24" stroke-width="2.5"/>
+    <polygon points="234,190 246,196 234,202" fill="#fbbf24"/>
+    <rect x="244" y="194" width="110" height="22" rx="6" fill="#fbbf24"/>
+    <text x="299" y="209" text-anchor="middle" font-size="11" font-weight="bold" fill="#0b1220">DATA_SOURCE</text>
+    <rect x="24" y="224" width="524" height="80" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.4"/>
+    <rect x="24" y="224" width="524" height="22" rx="8" fill="#1e2a44"/>
+    <text x="38" y="241" font-size="11" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">dsl.actions 数组 三种 action 类型共存</text>
+    <text x="38" y="264" font-size="12" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">actions: [</text>
+    <text x="52" y="280" font-size="12" fill="#f472b6" font-family="'SF Mono',Consolas,monospace">type code method alert(1)</text>
+    <text x="52" y="296" font-size="12" fill="#34d399" font-family="'SF Mono',Consolas,monospace">type comp method flip</text>
+    <rect x="24" y="310" width="524" height="40" rx="8" fill="#111a30" stroke="#223055"/>
+    <rect x="24" y="310" width="4" height="40" rx="2" fill="#f472b6"/>
+    <text x="40" y="329" font-size="13.5" fill="#e2e8f0">选择原则：组件 config 能解决的别塞 data-source。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#34d399" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#34d399"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">四件套：index formConfig initValue event</text>
+    <g data-role="label" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="330" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">一个 tmagic 组件就是四件套；</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">注册后 runtime 自动加载。</text>
+    <rect x="24" y="150" width="252" height="60" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="4" height="60" rx="2" fill="#22d3ee"/>
+    <text x="40" y="168" font-size="13" font-weight="bold" fill="#22d3ee">1 index.vue 组件本体</text>
+    <text x="40" y="186" font-size="11.5" fill="#94a3b8">props 接收 DSL config</text>
+    <text x="40" y="200" font-size="11.5" fill="#94a3b8">runtime 按 DSL 递归渲染</text>
+    <rect x="296" y="150" width="252" height="60" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="296" y="150" width="4" height="60" rx="2" fill="#34d399"/>
+    <text x="312" y="168" font-size="13" font-weight="bold" fill="#34d399">2 formConfig.ts 面板</text>
+    <text x="312" y="186" font-size="11.5" fill="#94a3b8">编辑器右侧属性面板</text>
+    <text x="312" y="200" font-size="11.5" fill="#94a3b8">字段名和 DSL key 对齐</text>
+    <rect x="24" y="220" width="252" height="60" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.4"/>
+    <rect x="24" y="220" width="4" height="60" rx="2" fill="#f472b6"/>
+    <text x="40" y="238" font-size="13" font-weight="bold" fill="#f472b6">3 initValue.ts 默认值</text>
+    <text x="40" y="256" font-size="11.5" fill="#94a3b8">拖进画布自动生成</text>
+    <text x="40" y="270" font-size="11.5" fill="#94a3b8">决定组件第一次长啥样</text>
+    <rect x="296" y="220" width="252" height="60" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <rect x="296" y="220" width="4" height="60" rx="2" fill="#a78bfa"/>
+    <text x="312" y="238" font-size="13" font-weight="bold" fill="#a78bfa">4 event.ts 事件列表</text>
+    <text x="312" y="256" font-size="11.5" fill="#94a3b8">对外暴露 action 方法</text>
+    <text x="312" y="270" font-size="11.5" fill="#94a3b8">dsl.actions 里能挂这里</text>
+    <rect x="24" y="290" width="524" height="62" rx="8" fill="#111a30" stroke="#f97316" stroke-opacity="0.5"/>
+    <rect x="24" y="290" width="4" height="62" rx="2" fill="#f97316"/>
+    <text x="40" y="312" font-size="13" font-weight="bold" fill="#f97316">坑：别用 instance.flip 挂方法</text>
+    <text x="40" y="332" font-size="12" fill="#94a3b8">runtime 包一层 Magic 实例，action 要走 DSL method 字段。</text>
+    <text x="40" y="346" font-size="12" fill="#94a3b8">别硬编码 ref.flip，那是 Vue 内部。</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">数据源链路：class register field</text>
+    <g data-role="uncle" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="330" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">数据源是独立一层，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">专门负责 IO，不掺组件逻辑。</text>
+    <rect x="24" y="150" width="524" height="110" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <text x="38" y="172" font-size="12" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">注册一个 HTTP 数据源类</text>
+    <text x="38" y="190" font-size="12" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">class MyHttpDataSource extends DataSource</text>
+    <text x="52" y="206" font-size="12" fill="#34d399" font-family="'SF Mono',Consolas,monospace">async init this.data = await fetch(url)</text>
+    <text x="38" y="222" font-size="12" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">DataSourceManager.register http MyHttpDataSource</text>
+    <line x1="130" y1="236" x2="130" y2="254" stroke="#a78bfa" stroke-width="2"/>
+    <polygon points="124,254 130,266 136,254" fill="#a78bfa"/>
+    <rect x="24" y="266" width="524" height="44" rx="8" fill="#0a0f1c" stroke="#fbbf24" stroke-opacity="0.4"/>
+    <text x="38" y="286" font-size="12" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">formConfig 里的 field-select 直接引用</text>
+    <text x="38" y="302" font-size="12" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">type data-source dataSource userList</text>
+    <rect x="24" y="318" width="524" height="36" rx="8" fill="#111a30" stroke="#223055"/>
+    <rect x="24" y="318" width="4" height="36" rx="2" fill="#a78bfa"/>
+    <text x="40" y="337" font-size="13" font-weight="bold" fill="#a78bfa">compiledNode 自动编译每个 DSL node</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">CLI 链路：config entry UMD</text>
+    <g data-role="label" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="330" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">tmagic-cli 打包 UMD，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">runtime asyncLoadJs 动态加载。</text>
+    <rect x="24" y="150" width="524" height="116" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="38" y="160" width="116" height="30" rx="6" fill="#1e293b"/>
+    <text x="96" y="180" text-anchor="middle" font-size="12" font-weight="bold" fill="#22d3ee">1 tmagic.config</text>
+    <polygon points="160,175 174,170 174,180" fill="#f8fafc"/>
+    <rect x="180" y="160" width="126" height="30" rx="6" fill="#1e293b"/>
+    <text x="243" y="180" text-anchor="middle" font-size="12" font-weight="bold" fill="#a78bfa">2 tmagic entry</text>
+    <polygon points="308,175 322,170 322,180" fill="#f8fafc"/>
+    <rect x="328" y="160" width="210" height="30" rx="6" fill="#1e293b"/>
+    <text x="433" y="180" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">3 五份 UMD editor runtime</text>
+    <polygon points="328,200 342,195 342,205" fill="#f8fafc"/>
+    <rect x="348" y="204" width="200" height="30" rx="6" fill="#1e293b"/>
+    <text x="448" y="224" text-anchor="middle" font-size="12" font-weight="bold" fill="#f472b6">4 asyncLoadJs 动态加载</text>
+    <text x="38" y="252" font-size="11.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">config 声明 → entry 打包 → UMD 产物 → runtime 注入</text>
+    <rect x="24" y="272" width="524" height="52" rx="8" fill="#111a30" stroke="#fbbf24" stroke-opacity="0.4"/>
+    <rect x="24" y="272" width="4" height="52" rx="2" fill="#fbbf24"/>
+    <text x="40" y="294" font-size="13" font-weight="bold" fill="#fbbf24">lab 简化版：跳过 cli，直接源码 import</text>
+    <text x="40" y="314" font-size="12.5" fill="#94a3b8">快速验证组件逻辑可以；生产环境必须走 UMD 链路。</text>
+    <rect x="24" y="330" width="524" height="20" rx="6" fill="#0a0f1c" stroke="#223055"/>
+    <text x="40" y="344" font-size="12" fill="#e2e8f0">UMD 是 editor 和 runtime 之间唯一发布格式。</text>
+  </g>
+</svg>

@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="ep16-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="ep16-title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#ep16-bg)"/>
+  <polygon points="1000,0 1080,0 780,840 700,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="140,0 210,0 1030,840 960,840" fill="#f97316" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#7C3AED"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.16</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#ep16-title)">从零开始，先画一张架构图</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">低代码产品实战 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#ep16-title)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">面对空白画布，从零搭</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="250" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">商业框架太黑盒，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">我要自己从零写一个！</text>
+    <rect x="24" y="150" width="280" height="190" rx="10" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="24" y="150" width="280" height="24" rx="10" fill="#1e2a44"/>
+    <text x="164" y="166" text-anchor="middle" font-size="12" font-weight="bold" fill="#22d3ee">空白画布 · mini-lowcode</text>
+    <text x="164" y="230" text-anchor="middle" font-size="26" font-weight="bold" fill="#94a3b8">?</text>
+    <text x="164" y="268" text-anchor="middle" font-size="13" fill="#64748b">不依赖 amis / Formily</text>
+    <text x="164" y="290" text-anchor="middle" font-size="13" fill="#64748b">不依赖 lowcode-engine</text>
+    <text x="164" y="312" text-anchor="middle" font-size="13" fill="#64748b">纯手写教学级引擎</text>
+    <rect x="320" y="150" width="228" height="190" rx="10" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.4"/>
+    <rect x="320" y="150" width="228" height="24" rx="10" fill="#1e2a44"/>
+    <text x="434" y="166" text-anchor="middle" font-size="12" font-weight="bold" fill="#f97316">目标</text>
+    <text x="336" y="200" font-size="13" fill="#e2e8f0">· 理解底层原理</text>
+    <text x="336" y="224" font-size="13" fill="#e2e8f0">· 掌控每一行代码</text>
+    <text x="336" y="248" font-size="13" fill="#e2e8f0">· 教学最小实现</text>
+    <text x="336" y="272" font-size="13" fill="#e2e8f0">· 不追求生产级</text>
+    <text x="336" y="296" font-size="13" fill="#e2e8f0">· 但要跑通全链路</text>
+    <rect x="24" y="312" width="524" height="38" rx="8" fill="#111a30" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <rect x="24" y="312" width="4" height="38" rx="2" fill="#22d3ee"/>
+    <text x="40" y="336" font-size="13.5" fill="#22d3ee">第一步：先画一张架构图，再动手写代码。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">六大模块架构图</text>
+    <g data-role="pixel" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="210" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="14" fill="#0b1220">六大模块，各管一摊：</text>
+    <text x="102" y="124" font-size="14" fill="#0b1220">数据驱动视图</text>
+    <rect x="24" y="152" width="80" height="48" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.6"/>
+    <text x="64" y="182" text-anchor="middle" font-size="13" font-weight="bold" fill="#22d3ee">Schema</text>
+    <polygon points="104,176 114,176 109,182" fill="#94a3b8"/>
+    <rect x="118" y="152" width="80" height="48" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.6"/>
+    <text x="158" y="182" text-anchor="middle" font-size="13" font-weight="bold" fill="#a78bfa">Renderer</text>
+    <polygon points="198,176 208,176 203,182" fill="#94a3b8"/>
+    <rect x="212" y="152" width="80" height="48" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.6"/>
+    <text x="252" y="182" text-anchor="middle" font-size="13" font-weight="bold" fill="#f472b6">Designer</text>
+    <polygon points="292,176 302,176 297,182" fill="#94a3b8"/>
+    <rect x="306" y="152" width="80" height="48" rx="8" fill="#0a0f1c" stroke="#fbbf24" stroke-opacity="0.6"/>
+    <text x="346" y="182" text-anchor="middle" font-size="13" font-weight="bold" fill="#fbbf24">History</text>
+    <polygon points="386,176 396,176 391,182" fill="#94a3b8"/>
+    <rect x="400" y="152" width="80" height="48" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.6"/>
+    <text x="440" y="182" text-anchor="middle" font-size="13" font-weight="bold" fill="#34d399">Plugin</text>
+    <polygon points="480,176 490,176 485,182" fill="#94a3b8"/>
+    <rect x="494" y="152" width="54" height="48" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.6"/>
+    <text x="521" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#f97316">Codegen</text>
+    <rect x="24" y="214" width="524" height="132" rx="8" fill="#0a0f1c" stroke="#223055"/>
+    <text x="40" y="238" font-size="12.5" font-weight="bold" fill="#22d3ee">Schema</text>
+    <text x="40" y="258" font-size="11.5" fill="#94a3b8">描述页面结构的 JSON 数据</text>
+    <text x="40" y="280" font-size="12.5" font-weight="bold" fill="#a78bfa">Renderer</text>
+    <text x="40" y="300" font-size="11.5" fill="#94a3b8">递归遍历 Schema，输出真实 DOM</text>
+    <text x="280" y="238" font-size="12.5" font-weight="bold" fill="#f472b6">Designer</text>
+    <text x="280" y="258" font-size="11.5" fill="#94a3b8">可视化拖拽，修改 Schema</text>
+    <text x="280" y="280" font-size="12.5" font-weight="bold" fill="#fbbf24">History</text>
+    <text x="280" y="300" font-size="11.5" fill="#94a3b8">命令模式，支持撤销重做</text>
+    <text x="280" y="322" font-size="12.5" font-weight="bold" fill="#34d399">Plugin</text>
+    <text x="280" y="334" font-size="11" fill="#94a3b8">setup(api) 扩展能力</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">为什么要自己写？</text>
+    <g data-role="label" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="220" height="64" rx="10" fill="#f8fafc"/>
+    <text x="102" y="100" font-size="15" fill="#0b1220">现成框架那么多，</text>
+    <text x="102" y="122" font-size="15" fill="#0b1220">为什么要自己从零写？</text>
+    <g data-role="pixel" transform="translate(52,250)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,240 74,246 88,252" fill="#f8fafc"/>
+    <rect x="88" y="216" width="460" height="76" rx="10" fill="#f8fafc"/>
+    <text x="102" y="240" font-size="15" fill="#0b1220">理解原理，才能用好工具。</text>
+    <text x="102" y="262" font-size="15" fill="#0b1220">自己写一遍，就知道框架在</text>
+    <text x="102" y="284" font-size="15" fill="#0b1220">帮你解决什么问题。</text>
+    <rect x="24" y="312" width="524" height="38" rx="8" fill="#111a30" stroke="#f97316" stroke-opacity="0.5"/>
+    <rect x="24" y="312" width="4" height="38" rx="2" fill="#f97316"/>
+    <text x="40" y="336" font-size="13.5" fill="#f97316">黑盒用久了会失去判断力，白盒才能真正掌握。</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#34d399" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#34d399"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">本质：数据驱动视图</text>
+    <g data-role="uncle" transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="460" height="76" rx="10" fill="#f8fafc"/>
+    <text x="102" y="100" font-size="15" fill="#0b1220">低代码引擎的本质就一句话：</text>
+    <text x="102" y="122" font-size="16" font-weight="bold" fill="#7C3AED">「数据驱动视图」</text>
+    <text x="102" y="144" font-size="13" fill="#64748b">Schema 是数据，Renderer 把数据变成视图。</text>
+    <rect x="24" y="166" width="248" height="170" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect x="24" y="166" width="248" height="24" rx="8" fill="#1e2a44"/>
+    <text x="148" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#22d3ee">Schema（数据）</text>
+    <text x="40" y="212" font-size="12" fill="#e2e8f0">{</text>
+    <text x="56" y="232" font-size="12" fill="#a78bfa">"type"</text>
+    <text x="110" y="232" font-size="12" fill="#f97316">: "page"</text>
+    <text x="56" y="252" font-size="12" fill="#a78bfa">"children"</text>
+    <text x="130" y="252" font-size="12" fill="#f97316">: [ ... ]</text>
+    <text x="40" y="272" font-size="12" fill="#e2e8f0">}</text>
+    <text x="148" y="310" text-anchor="middle" font-size="11" fill="#94a3b8">纯数据，可序列化</text>
+    <polygon points="290,246 300,240 300,252" fill="#34d399"/>
+    <rect x="304" y="166" width="244" height="170" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.4"/>
+    <rect x="304" y="166" width="244" height="24" rx="8" fill="#1e2a44"/>
+    <text x="426" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">Renderer（视图）</text>
+    <rect x="324" y="204" width="204" height="110" rx="6" fill="#0e1730" stroke="#34d399" stroke-opacity="0.3"/>
+    <rect x="324" y="204" width="204" height="22" rx="6" fill="#1e2a44"/>
+    <text x="426" y="220" text-anchor="middle" font-size="11" font-weight="bold" fill="#34d399">渲染结果</text>
+    <rect x="336" y="236" width="180" height="22" rx="4" fill="#223055"/>
+    <text x="426" y="252" text-anchor="middle" font-size="11" fill="#e2e8f0">页面标题</text>
+    <rect x="336" y="264" width="84" height="30" rx="4" fill="#22d3ee" opacity="0.3"/>
+    <text x="378" y="284" text-anchor="middle" font-size="11" fill="#22d3ee">按钮</text>
+    <rect x="432" y="264" width="84" height="30" rx="4" fill="#f472b6" opacity="0.3"/>
+    <text x="474" y="284" text-anchor="middle" font-size="11" fill="#f472b6">按钮</text>
+    <text x="426" y="318" text-anchor="middle" font-size="11" fill="#94a3b8">递归渲染成 DOM</text>
+    <rect x="24" y="346" width="524" height="0" fill="none"/>
+  </g>
+</svg>
